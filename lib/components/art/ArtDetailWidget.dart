@@ -63,6 +63,14 @@ class _ArtDetailWidgetState extends State<ArtDetailWidget> {
           ),
           ListTile(
             leading: Text(
+              widget.data.title,
+              style: TextStyle(
+                color: asoPrimary,
+                fontWeight: FontWeight.bold,
+                fontSize: 18.0,
+              ),
+            ),
+            trailing: Text(
               widget.data.zone,
               style: TextStyle(
                 color: asoPrimary,

@@ -98,6 +98,7 @@ class _MasterArtPageState extends State<MasterArtPage> {
               flex: secondFlexSize,
               child: Container(
                 width: double.infinity,
+                padding: EdgeInsets.all(10.0),
                 decoration: BoxDecoration(
                   color: Color(0xFFFCEAEB),
                 ),
@@ -106,7 +107,7 @@ class _MasterArtPageState extends State<MasterArtPage> {
                     image: "assets/icons/installation.svg",
                     textTop: "ART ",
                     textBottom: "INSTALLATIONS",
-                    subtitle: "Cool Beans",
+                    subtitle: "Hot Beans",
                   ),
                   Expanded(
                       child: ClipRRect(
@@ -114,6 +115,7 @@ class _MasterArtPageState extends State<MasterArtPage> {
                     child: Container(
                       width: double.infinity,
                       color: Colors.white,
+                      padding: EdgeInsets.all(10.0),
                       child: Stack(
                         children: <Widget>[
                           SizedBox(height: 50),

@@ -21,7 +21,7 @@ class ArtListCard extends StatelessWidget {
         borderRadius: BorderRadius.circular(25.0),
       ),
       child: Container(
-        color: Color(0xFFFBE6E5),
+        color: Color(0xfffceaeb),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
